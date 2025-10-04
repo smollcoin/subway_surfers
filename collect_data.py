@@ -8,7 +8,7 @@ from PIL import ImageGrab
 keys = ["left", "right", "up", "down", "space", "esc"]
 
 def read_keypress():
-    # Non-blocking check for each key
+    # Non-blocking 
     for key in keys:
         if keyboard.is_pressed(key):
             return key
